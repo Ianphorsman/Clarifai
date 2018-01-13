@@ -10,17 +10,17 @@ default: &default
 development:
   <<: *default
   database: ClarifaiApp_development
-  username: ENV['CLARIFAI_DATABASE_USERNAME']
-  password: ENV['CLARIFAI_DATABASE_PASSWORD']
+  username: <%= ENV['CLARIFAI_DATABASE_USERNAME'] %>
+  password: <%= ENV['CLARIFAI_DATABASE_PASSWORD'] %>
 
 test:
   <<: *default
   database: ClarifaiApp_test
-  username: ENV['CLARIFAI_DATABASE_USERNAME']
-  password: ENV['CLARIFAI_DATABASE_PASSWORD']
+  username: <%= ENV['CLARIFAI_DATABASE_USERNAME'] %>
+  password: <%= ENV['CLARIFAI_DATABASE_PASSWORD'] %>
 
 production:
   <<: *default
   database: ClarifaiApp_production
-  username: ENV['CLARIFAI_DATABASE_USERNAME']
-  password: ENV['CLARIFAI_DATABASE_PASSWORD']
+  username: <%= ENV['CLARIFAI_DATABASE_USERNAME'] %>
+  password: <%= ENV['CLARIFAI_DATABASE_PASSWORD'] %>
