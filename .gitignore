@@ -22,3 +22,4 @@
 /config/local_environment_variables.yml
 /public/packs
 /public/packs-test
+yarn.lock
