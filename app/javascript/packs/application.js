@@ -6,6 +6,6 @@ import App from './app'
 document.addEventListener('DOMContentLoaded', () => {
     ReactDOM.render(
         <App />,
-        document.body.appendChild(document.createElement('div'))
+        document.getElementById('react-root')
     )
 })
