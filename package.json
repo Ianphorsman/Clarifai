@@ -7,8 +7,10 @@
     "babel-preset-react": "^6.24.1",
     "clarifai": "^2.5.0",
     "coffeescript": "1.12.7",
+    "moment": "^2.20.1",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
+    "react-datetime": "^2.11.1",
     "react-dom": "^16.2.0",
     "underscore": "^1.8.3",
     "victory": "^0.24.5"
